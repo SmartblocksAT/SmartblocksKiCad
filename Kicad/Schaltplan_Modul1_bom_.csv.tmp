@@ -1,0 +1,27 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C,C1 C2 C3 C4 C5 C6 C7 C8 C9,10nF,C_0805_2012Metric,9,Capacitor 0805 10nF
+2,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J3,ConnectorBUS_Links,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+3,"Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x04_Odd_Even,J1,Connector_Links,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+4,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J2 J4 J5 J6,X_DAC,TBL_127B 2,4,TBL 127B p2
+5,Resistor,R,R5,100R,R_0805_2012Metric,1,Resistor 0805 100R
+6,Potentiometer,R_POT,R_POT1,10K_Pot,Potentiometer_Bourns_PRS11S_Vertical,1,10K_Pot Bourns_PRS11S_Vertical
+7,Resistor,R,R1 R3 R6 R8,10k,R_0805_2012Metric,4,Resistor 0805 10k
+8,Resistor,R,R2 R9,1k6,R_0805_2012Metric,2,Resistor 0805 1k6
+9,Resistor,R,R4 R7,4k7,R_0805_2012Metric,2,Resistor 0805 4k7
+10,"Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5",AD8603,U1 U2,AD8603,TSOT-23-5,2,AD8603 TSOT-23-5
+
+
+
+
+
+Component Groups:,10
+Component Count:,27
+Fitted Components:,27
+Number of PCBs:,1
+Total components:,27
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,[u'default']
+BoM Date:,15.03.2020 14:25:17
+Schematic Source:,Schaltplan_Modul1.sch
+KiCad Version:,Eeschema (5.0.0)

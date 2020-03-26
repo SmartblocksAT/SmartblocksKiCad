@@ -1,0 +1,35 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C,C3 C4 C9 C10,100nF,C_0805_2012Metric,4,Capacitor 0805 100nF
+2,Unpolarized capacitor,C,C1 C2,10nF,C_0805_2012Metric,2,Capacitor 0805 10nF
+3,Polarised capacitor,CP,C13 C14,10uF,CP_Radial_D5.0mm_P2.00mm,2,Capacitor 0805 10uF
+4,Unpolarized capacitor,C,C5 C6 C7 C8 C11 C12,1uF,C_0805_2012Metric,6,Capacitor 0805 1uF
+5,"100V 0.15A standard switching diode, DO-35",1N4148,D1 D2 D3 D4,1N4148,D_SOD-123,4,1N4148
+6,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J2,ConnectorBUS_Rechts,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+7,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J3,Connector_Rechts,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+8,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J1 J5,Mosfets,TBL_127B 2,2,TBL 127B p2
+9,"Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x03,J4 J6,Relais,TBL_127B 3,2,TBL 127B p3
+10,"Sanyo SRD relay, Single Pole Miniature Power Relay,",SANYOU_SRD_Form_C,K1 K2,SANYOU_SRD_Form_C,Relay_SPDT_SANYOU_SRD_Series_Form_C,2,SANYOU_SRD_Form_C
+11,"0.8A Ic, 45V Vce, NPN Transistor, SOT-23",BC817,Q9 Q10,BC817,SOT-23,2,BC817 SOT-23
+12,Transistor N-MOSFET with substrate diode (general),Q_NMOS_GDS,Q1 Q2 Q3 Q4,NVD5C454NT4G,TO-252-2,4,NVD5C454NT4G TO-252-2
+13,Resistor,R,R1 R2,100K,R_0805_2012Metric,2,Resistor 0805 100k
+14,Resistor,R,R3 R4,100R,R_0805_2012Metric,2,Resistor 0805 100R
+15,Resistor,R,R10 R11 R12 R14,10K,R_0805_2012Metric,4,Resistor 0805 10k
+16,Resistor,R,R9 R13,5K6,R_0805_2012Metric,2,Resistor 0805 5k6
+17,"1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x01,SW1 SW2,SW_DIP_x01,Druckschalter,2,B077FH7TGD Taster
+18,,si8234bb,U1 U2,si8234bb,SOIC-16W_7.5x10.3mm_P1.27mm,2,si8234bb SOIC-16W
+
+
+
+
+
+Component Groups:,18
+Component Count:,46
+Fitted Components:,46
+Number of PCBs:,1
+Total components:,46
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,[u'default']
+BoM Date:,15.03.2020 15:04:35
+Schematic Source:,Schaltplan_Modul3.sch
+KiCad Version:,Eeschema (5.0.0)

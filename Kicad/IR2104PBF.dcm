@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IR2104PBF
+D Infineon IR2104PBF Dual Half Bridge MOSFET Power Driver, 0.36A 8-Pin, PDIP
+K
+F https://componentsearchengine.com/Datasheets/1/IR2104PBF.pdf
+$ENDCMP
+#
+#End Doc Library

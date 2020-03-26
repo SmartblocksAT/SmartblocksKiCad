@@ -1,0 +1,10 @@
+Reference Type, Quantity, Reference, Value, Footprint, Datasheet, Description, Height, Manufacturer_Name, Manufacturer_Part_Number, Mouser Part Number, Mouser Price/Stock
+"AC","1","AC1,","LIS3DHTR","Sensor_Current:XDCR_LIS3DHTR","https://componentsearchengine.com/Datasheets/1/LIS3DHTR.pdf","Accelerometer 3-Axis 2g/16g 1.8V LGA16 STMicroelectronics LIS3DHTR Accelerometer IC, 3-axis, I2C, SPI 1.71  3.6 V, 16-Pin LGA","1","STMicroelectronics","LIS3DHTR","511-LIS3DHTR","https://www.mouser.com/Search/Refine.aspx?Keyword=511-LIS3DHTR"
+"C","4","C1,C4,C5,C6,","1pF","Capacitor_SMD:C_0805_2012Metric","~"
+"C","2","C3,C2,","47pF","Capacitor_SMD:C_0805_2012Metric","~"
+"IC","1","IC1,","OPT3001DNPR","Sensor_Current:OPT3001DNPR","http://www.ti.com/lit/gpn/opt3001","Digital Ambient Light Sensor (ALS) With High-Precision Human-Eye Response  ","0.65","Texas Instruments","OPT3001DNPR","595-OPT3001DNPR","https://www.mouser.com/Search/Refine.aspx?Keyword=595-OPT3001DNPR"
+"J","1","J5,","Conn_02x01","Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical","~"
+"J","1","J4,","ConnectorBUS_Rechts","Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical","~"
+"J","1","J1,","HC-SR04","Sensor_Audio:XCVR_HC-SR04",""
+"R","2","R1,R2,","47R","Resistor_SMD:R_0805_2012Metric","~"
+"U","1","U1,","Si7020-A20","Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm","https://www.silabs.com/documents/public/data-sheets/Si7020-A20.pdf"

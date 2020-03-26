@@ -1,0 +1,28 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C,C1 C2 C3 C4 C5,10nF,C_0805_2012Metric,5,Capacitor 0805 10nF
+2,LED generic,LED,D1 D2 D3,Led THT,D_DO-15_P5.08mm_Vertical_KathodeUp,3,Led Smd 1206 d5mm
+3,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J1,ConnectorBUS_Front,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+4,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J2,Connector_Front,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+5,"Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x16_Male,J3,LCD Dobrovitz,LCD_dobro,1,LCD Dobrovitz
+6,"0.8A Ic, 45V Vce, NPN Transistor, SOT-23",BC817,Q1,BC817,SOT-23,1,BC817 SOT-23
+7,Resistor,R,R1 R2 R6 R8,10k,R_0805_2012Metric,4,Resistor 0805 10k
+8,Resistor,R,R3 R5 R7,220R,R_0805_2012Metric,3,Resistor 0805 220R
+9,Potentiometer,R_POT,RV1,R_POT 10k,Potentiometer_Bourns_3314G_Vertical,1,R_POT 10k Bourns_3314G_Vertical
+10,"1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x01,SW1 SW3 SW4,SW_DIP_x01,Druckschalter,3,B077FH7TGD Taster
+11,"8 Bit Port/Expander to I2C Bus, DIP/SOIC-16",PCF8574A,U1,PCF8574,SOIC-16W_7.5x10.3mm_P1.27mm,1,PCF8574AT SOIC-16W
+
+
+
+
+
+Component Groups:,11
+Component Count:,24
+Fitted Components:,24
+Number of PCBs:,1
+Total components:,24
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,[u'default']
+BoM Date:,15.03.2020 14:37:44
+Schematic Source:,Schaltplan_Modul2.sch
+KiCad Version:,Eeschema (5.0.0)

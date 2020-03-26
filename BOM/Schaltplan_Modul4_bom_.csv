@@ -1,0 +1,27 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,"Accelerometer 3-Axis 2g/16g 1.8V LGA16 STMicroelectronics LIS3DHTR Accelerometer IC, 3-axis, I2C, SPI 1.71  3.6 V, 16-Pin LGA",LIS3DHTR,AC1,LIS3DHTR,XDCR_LIS3DHTR,1,LIS3DHTR LGA-16 
+2,Unpolarized capacitor,C,C1 C4 C5 C6,1pF,C_0805_2012Metric,4,Capacitor 0805 1pF
+3,Unpolarized capacitor,C,C2 C3,47pF,C_0805_2012Metric,2,Capacitor 0805 1pF
+4,Digital Ambient Light Sensor (ALS) With High-Precision Human-Eye Response,OPT3001DNPR,IC1,OPT3001DNPR,OPT3001DNPR,1,OPT3001DNPR USON-6 
+5,"Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x01,J5,Conn_02x01,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+6,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J4,ConnectorBUS_Rechts,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+7,,HC-SR04,J1,HC-SR04,XCVR_HC-SR04,1,HC-SR04
+8,Resistor,R,R3 R4,10K,R_0805_2012Metric,2,Resistor 0805 10k
+9,Resistor,R,R1 R2,47R,R_0805_2012Metric,2,Resistor 0805 47R
+10,"I2C Humidity and Temperature Sensor, DFN-6",Si7020-A20,U1,Si7020-A20 DFN-6,DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm,1,Si7020-A20 DFN_QFN
+
+
+
+
+
+Component Groups:,10
+Component Count:,16
+Fitted Components:,16
+Number of PCBs:,1
+Total components:,16
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,[u'default']
+BoM Date:,15.03.2020 14:37:53
+Schematic Source:,Schaltplan_Modul4.sch
+KiCad Version:,Eeschema (5.0.0)

@@ -1,0 +1,43 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C,C3 C5,100pF,C_0805_2012Metric,2,Capacitor 0805 100pF
+2,Unpolarized capacitor,C,C4 C11 C32 C33,1uF,C_0805_2012Metric,4,Capacitor 0805 1uF
+3,Unpolarized capacitor,C,C1 C2 C6 C7 C8 C9 C10 C13 C14 C15 C16 C17 C18 C19 C20 C21 C22 C23 C24 C25 C26 C27 C28 C29 C30,47pF,C_0805_2012Metric,25,Capacitor 0805 47pF
+4,"30V 1A Schottky Barrier Rectifier Diode, DO-41",1N5818,D2,1N5819HW-7-F,D_,1,1N5819HW-7-F SOD-123
+5,LED generic,LED,D3,Led Spannung,LED_1206_3216Metric,1,Led Smd 1206
+6,,SP0503BAHT-Power_Protection,D1,SP0503BAHT,SOT-143,1,SP0503BAHT SOT-143
+7,"Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x01,J5,Conn_Rechts,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+8,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J2 J4 J6,ConnectorBUS_Front,SHDR10W64P254X254_2X5_2032X880X915P,3,Stecker Messerleiste  WSL 10G
+9,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J3,Connector_Front,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+10,"Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x04_Odd_Even,J7,Connector_Links,SHDR10W64P254X254_2X5_2032X880X915P,1,Stecker Messerleiste  WSL 10G
+11,USB Micro Type B connector,USB_B_Micro,J1,Micro-B_Wuerth_629105150521,USB_Micro-B_Wuerth_629105150521_CircularHoles,1,USB B Micro-B_Wuerth_629105150521
+12,"0.8A Ic, 45V Vce, NPN Transistor, SOT-23",BC817,Q1 Q2,BC817,SOT-23,2,BC817 SOT-23
+13,Resistor,R,R3 R4 R8 R33 R34,10k,R_0805_2012Metric,5,Resistor 0805 10k
+14,Resistor,R,R35,1M NC,R_0805_2012Metric,1,Resistor 0805 1M 
+15,Resistor,R,R14,"22,1k",R_0805_2012Metric,1,"Resistor 0805 22,1k"
+16,Resistor,R,R1 R2,22R,R_0805_2012Metric,2,Resistor 0805 22R
+17,Resistor,R,R13,2k2,R_0805_2012Metric,1,Resistor 0805 2k2
+18,Resistor,R,R36,330R,R_0805_2012Metric,1,Resistor 0805 330R
+19,Resistor,R,R15,"47,5k",R_0805_2012Metric,1,"Resistor 0805 47,5k"
+20,Resistor,R,R5 R6 R7 R10 R12 R16 R17 R18 R19 R20 R21 R22 R23 R24 R25 R26 R27 R28 R29 R30 R31 R32,47R,R_0805_2012Metric,22,Resistor 0805 47R
+21,Resistor,R,R9 R11,4k7,R_0805_2012Metric,2,Resistor 0805 4k7
+22,"1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x01,S1,BOOT Option,SW_SPST_B3SL-1002P,1,Button SMD B3SL-1002P
+23,"1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",SW_DIP_x01,S2,Reset,SW_SPST_B3SL-1002P,1,Button SMD B3SL-1002P
+24,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",AMS1117-3.3,U3,AMS1117-3.3,SOT-223-3_TabPin2,1,AMS1117-3.3 SOT-223-3
+25,USB to UART master bridge,CP2102N-A01-GQFN24,U1,CP2102N-A01-GQFN24,QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,1,CP2102N-A01-G QFN24
+26,,EP32-WROOM-32D,U2,EP32-WROOM-32D,ESP32-WROOM-32U,1,EP32-WROOM-32D
+
+
+
+
+
+Component Groups:,26
+Component Count:,84
+Fitted Components:,84
+Number of PCBs:,1
+Total components:,84
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,[u'default']
+BoM Date:,15.03.2020 14:47:03
+Schematic Source:,Schaltplan_Mainboard.sch
+KiCad Version:,Eeschema (5.0.0)

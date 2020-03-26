@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\AbschlussProjekt\Kicad\kicad\Schaltplan_Modul4.sch</source>
+    <date>15.03.2020 14:37:53</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Schaltplan_Modul4.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J4">
+      <value>ConnectorBUS_Rechts</value>
+      <footprint>Connector_IDC:SHDR10W64P254X254_2X5_2032X880X915P</footprint>
+      <datasheet>Stecker Messerleiste  WSL 10G</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E017A15</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x01</value>
+      <footprint>Connector_IDC:SHDR10W64P254X254_2X5_2032X880X915P</footprint>
+      <datasheet>Stecker Messerleiste  WSL 10G</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x01" description="Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E02A15F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>HC-SR04</value>
+      <footprint>Sensor_Audio:XCVR_HC-SR04</footprint>
+      <datasheet>HC-SR04</datasheet>
+      <libsource lib="HC-SR04" part="HC-SR04" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7B4780</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Si7020-A20 DFN-6</value>
+      <footprint>Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm</footprint>
+      <datasheet>Si7020-A20 DFN_QFN</datasheet>
+      <libsource lib="Sensor_Humidity" part="Si7020-A20" description="I2C Humidity and Temperature Sensor, DFN-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7B55B4</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>OPT3001DNPR</value>
+      <footprint>Sensor_Current:OPT3001DNPR</footprint>
+      <datasheet>OPT3001DNPR USON-6 </datasheet>
+      <libsource lib="OPT3001DNPR" part="OPT3001DNPR" description="Digital Ambient Light Sensor (ALS) With High-Precision Human-Eye Response"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7A6D06</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 1pF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D98E62C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 1pF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D98F5AC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 1pF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA62551</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 1pF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA6C5C7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>47R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 47R</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA6C641</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 1pF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA6EF4E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>47R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 47R</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA6EF55</tstamp>
+    </comp>
+    <comp ref="AC1">
+      <value>LIS3DHTR</value>
+      <footprint>Sensor_Current:XDCR_LIS3DHTR</footprint>
+      <datasheet>LIS3DHTR LGA-16 </datasheet>
+      <libsource lib="LIS3DHTR" part="LIS3DHTR" description="Accelerometer 3-Axis 2g/16g 1.8V LGA16 STMicroelectronics LIS3DHTR Accelerometer IC, 3-axis, I2C, SPI 1.71  3.6 V, 16-Pin LGA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7A6E0D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 1pF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DADB5D5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 10k</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFFF538</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 10k</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6B0B38</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x01">
+      <description>Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HC-SR04" part="HC-SR04">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HC-SR04</field>
+        <field name="Footprint">XCVR_HC-SR04</field>
+        <field name="Datasheet">HC-SR04</field>
+        <field name="Feld4">None</field>
+        <field name="Feld5">OSEPP Electronics</field>
+        <field name="Feld6">None</field>
+        <field name="Feld7">Multiple Function Sensor Development Tools Ultrasonic Sensor Module</field>
+        <field name="Feld8">Unavailable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="TRIG" type="BiDi"/>
+        <pin num="3" name="ECHO" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIS3DHTR" part="LIS3DHTR">
+      <description>Accelerometer 3-Axis 2g/16g 1.8V LGA16 STMicroelectronics LIS3DHTR Accelerometer IC, 3-axis, I2C, SPI 1.71  3.6 V, 16-Pin LGA</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/LIS3DHTR.pdf</docs>
+      <fields>
+        <field name="Reference">AC</field>
+        <field name="Value">LIS3DHTR</field>
+        <field name="Footprint">PQFN50P300X300X100-16N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/LIS3DHTR.pdf</field>
+        <field name="Description">Accelerometer 3-Axis 2g/16g 1.8V LGA16 STMicroelectronics LIS3DHTR Accelerometer IC, 3-axis, I2C, SPI 1.71  3.6 V, 16-Pin LGA</field>
+        <field name="Height">1</field>
+        <field name="Mouser Part Number">511-LIS3DHTR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=511-LIS3DHTR</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">LIS3DHTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="BiDi"/>
+        <pin num="2" name="NC_1" type="BiDi"/>
+        <pin num="3" name="NC_2" type="BiDi"/>
+        <pin num="4" name="SCL/SPC" type="BiDi"/>
+        <pin num="5" name="GND_1" type="BiDi"/>
+        <pin num="6" name="SDA/SDI/SDO" type="BiDi"/>
+        <pin num="7" name="SDO/SA0" type="BiDi"/>
+        <pin num="8" name="CS" type="BiDi"/>
+        <pin num="9" name="INT2" type="BiDi"/>
+        <pin num="10" name="RES" type="BiDi"/>
+        <pin num="11" name="INT1" type="BiDi"/>
+        <pin num="12" name="GND_2" type="BiDi"/>
+        <pin num="13" name="ADC3" type="BiDi"/>
+        <pin num="14" name="VDD" type="BiDi"/>
+        <pin num="15" name="ADC2" type="BiDi"/>
+        <pin num="16" name="ADC1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPT3001DNPR" part="OPT3001DNPR">
+      <description>Digital Ambient Light Sensor (ALS) With High-Precision Human-Eye Response</description>
+      <docs>http://www.ti.com/lit/gpn/opt3001</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">OPT3001DNPR</field>
+        <field name="Footprint">SON65P200X200X65-7N-D</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/opt3001</field>
+        <field name="Description">Digital Ambient Light Sensor (ALS) With High-Precision Human-Eye Response  </field>
+        <field name="Height">0.65</field>
+        <field name="Mouser Part Number">595-OPT3001DNPR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-OPT3001DNPR</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">OPT3001DNPR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="BiDi"/>
+        <pin num="2" name="ADDR" type="BiDi"/>
+        <pin num="3" name="GND" type="BiDi"/>
+        <pin num="4" name="SCL" type="BiDi"/>
+        <pin num="5" name="INT" type="BiDi"/>
+        <pin num="6" name="SDA" type="BiDi"/>
+        <pin num="7" name="EP" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Humidity" part="Si7020-A20">
+      <description>I2C Humidity and Temperature Sensor, DFN-6</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/Si7020-A20.pdf</docs>
+      <footprints>
+        <fp>DFN*1EP*3x3mm*P1mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Si7020-A20</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="HC-SR04">
+      <uri>D:/AbschlussProjekt/Kicad/kicad/HC-SR04.lib</uri>
+    </library>
+    <library logical="LIS3DHTR">
+      <uri>D:/AbschlussProjekt/Kicad/kicad/LIS3DHTR.lib</uri>
+    </library>
+    <library logical="OPT3001DNPR">
+      <uri>D:/AbschlussProjekt/Kicad/kicad/OPT3001DNPR.lib</uri>
+    </library>
+    <library logical="Sensor_Humidity">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Sensor_Humidity.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/IO14">
+      <node ref="J5" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J1" pin="4"/>
+      <node ref="AC1" pin="12"/>
+      <node ref="AC1" pin="10"/>
+      <node ref="AC1" pin="5"/>
+      <node ref="AC1" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="C4" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="AC1" pin="14"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="7"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="AC1" pin="1"/>
+    </net>
+    <net code="4" name="+5V">
+      <node ref="J4" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(AC1-Pad16)">
+      <node ref="AC1" pin="16"/>
+    </net>
+    <net code="6" name="Net-(AC1-Pad15)">
+      <node ref="AC1" pin="15"/>
+    </net>
+    <net code="7" name="Net-(AC1-Pad8)">
+      <node ref="AC1" pin="8"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="8" name="Net-(AC1-Pad7)">
+      <node ref="AC1" pin="7"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C2-Pad1)">
+      <node ref="J1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(AC1-Pad2)">
+      <node ref="AC1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(AC1-Pad9)">
+      <node ref="AC1" pin="9"/>
+    </net>
+    <net code="13" name="Net-(AC1-Pad11)">
+      <node ref="AC1" pin="11"/>
+    </net>
+    <net code="14" name="Net-(AC1-Pad13)">
+      <node ref="AC1" pin="13"/>
+    </net>
+    <net code="15" name="/SDA">
+      <node ref="AC1" pin="6"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="16" name="/SCL">
+      <node ref="AC1" pin="4"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="J4" pin="5"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="17" name="/IO27">
+      <node ref="J5" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(J4-Pad9)">
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="21" name="/VSPI_CLK">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="22" name="/VSPI_MOSI">
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="23" name="/VSPI_MISO">
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="24" name="/VSPI_CS">
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="25" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+  </nets>
+</export>

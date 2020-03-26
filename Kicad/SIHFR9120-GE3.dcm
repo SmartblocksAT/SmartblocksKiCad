@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIHFR9120-GE3
+D MOSFET -100V Vds 20V Vgs DPAK (TO-252)
+K
+F https://componentsearchengine.com/Datasheets/1/SIHFR9120-GE3.pdf
+$ENDCMP
+#
+#End Doc Library

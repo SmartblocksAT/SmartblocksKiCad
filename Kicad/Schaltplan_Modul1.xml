@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\AbschlussProjekt\Kicad\kicad\Schaltplan_Modul1.sch</source>
+    <date>15.03.2020 14:37:26</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Schaltplan_Modul1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Connector_Links</value>
+      <footprint>Connector_IDC:SHDR10W64P254X254_2X5_2032X880X915P</footprint>
+      <datasheet>Stecker Messerleiste  WSL 10G</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D997AD9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 10nF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7C4F53</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>GND Bananenbuchse </value>
+      <footprint>Connector:BannaJack</footprint>
+      <datasheet>Sicherheitsbuchse Blau</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7E696F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 10k</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F0610</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k6</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 1k6</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F0617</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>Ai 24V Bananenbuchse </value>
+      <footprint>Connector:BannaJack</footprint>
+      <datasheet>Sicherheitsbuchse Schwarz</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7F0631</tstamp>
+    </comp>
+    <comp ref="R_POT1">
+      <value>10K_Pot</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_PRS11S_Vertical</footprint>
+      <datasheet>10K_Pot Bourns_PRS11S_Vertical</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8061CF</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>5V Bannanenbuchse</value>
+      <footprint>Connector:BannaJack</footprint>
+      <datasheet>Sicherheitsbuchse Rot</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D81AFE8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 10nF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D862E67</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 10nF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9A6C77</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 10k</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9A6C81</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 4k7</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9A6C88</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>Ai 10V Bananenbuchse</value>
+      <footprint>Connector:BannaJack</footprint>
+      <datasheet>Sicherheitsbuchse Schwarz</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9A6C98</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 10nF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9A6CA6</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 10nF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9AC09A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 10k</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9AC0A4</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k6</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 1k6</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9AC0AB</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>Ai 24V Bananenbuchse </value>
+      <footprint>Connector:BannaJack</footprint>
+      <datasheet>Sicherheitsbuchse Schwarz</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9AC0BB</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 10nF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9AC0C9</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 10nF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9B4D1E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 10k</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9B4D28</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 4k7</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9B4D2F</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>Ai 10V Bananenbuchse </value>
+      <footprint>Connector:BannaJack</footprint>
+      <datasheet>Sicherheitsbuchse Schwarz</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9B4D3F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 10nF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9B4D4D</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>DAC</value>
+      <footprint>Connector:BannaJack</footprint>
+      <datasheet>Sicherheitsbuchse Schwarz</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D962708</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AD8603</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5</footprint>
+      <datasheet>AD8603 TSOT-23-5</datasheet>
+      <libsource lib="Amplifier_Operational" part="AD8603" description="Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9DA0DC</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>DAC</value>
+      <footprint>Connector:BannaJack</footprint>
+      <datasheet>Sicherheitsbuchse Schwarz</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9F48AB</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AD8603</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5</footprint>
+      <datasheet>AD8603 TSOT-23-5</datasheet>
+      <libsource lib="Amplifier_Operational" part="AD8603" description="Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9F48B9</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>ConnectorBUS_Links</value>
+      <footprint>Connector_IDC:SHDR10W64P254X254_2X5_2032X880X915P</footprint>
+      <datasheet>Stecker Messerleiste  WSL 10G</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D998314</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Capacitor 0805 10nF</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA11811</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Resistor 0805 100R</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB7F3DC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>X_DAC</value>
+      <footprint>TerminalBlock:TBL_127B 2</footprint>
+      <datasheet>TBL 127B p2</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC09C7F</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>X_AI_24V</value>
+      <footprint>TerminalBlock:TBL_127B 2</footprint>
+      <datasheet>TBL 127B p2</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC4CF10</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>X_AI_10V</value>
+      <footprint>TerminalBlock:TBL_127B 2</footprint>
+      <datasheet>TBL 127B p2</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCA8E7F</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>X_AI_Versorgung</value>
+      <footprint>TerminalBlock:TBL_127B 2</footprint>
+      <datasheet>TBL 127B p2</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCB5591</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="AD8603">
+      <description>Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5</description>
+      <docs>http://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf</docs>
+      <footprints>
+        <fp>TSOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8603</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="U1" pin="5"/>
+      <node ref="R_POT1" pin="3"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="2" name="/IO26">
+      <node ref="J1" pin="6"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R_POT1" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="TP8" pin="1"/>
+    </net>
+    <net code="6" name="/IO25">
+      <node ref="J1" pin="4"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="7" name="Net-(C8-Pad1)">
+      <node ref="TP6" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R5-Pad2)">
+      <node ref="R_POT1" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C4-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C3-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="11" name="/VSPI_MOSI">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="12" name="/VSPI_CLK">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="13" name="Net-(J3-Pad9)">
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="14" name="/VSPI_MISO">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="15" name="/SDA">
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="16" name="/SCL">
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="17" name="+5V">
+      <node ref="J3" pin="3"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="18" name="/VSPI_CS">
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="19" name="/IO35">
+      <node ref="R5" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="21" name="/IO33">
+      <node ref="J1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="22" name="/IO39">
+      <node ref="J1" pin="7"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="23" name="/IO34">
+      <node ref="J1" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C9-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="25" name="/IO36">
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C2" pin="1"/>
+    </net>
+  </nets>
+</export>
